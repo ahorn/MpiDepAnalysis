@@ -56,7 +56,7 @@ written in C.
 
 Example:
 
-  $ clang -emit-llvm -I</your/include/path/to/mpi> example.c -c -o example.bc
+    $ clang -emit-llvm -I</your/include/path/to/mpi> example.c -c -o example.bc
 
 More detailed examples on how to compile code with clang and dissemble
 LLVM bitcode (should the need arise) can be found [here][clang].
